@@ -1,0 +1,23 @@
+// SASS
+@import 'variables';
+@import 'mixins';
+@import 'animations';
+
+// Commons
+@import '../../bower_components/normalize-css/normalize.css';
+@import 'normalize';
+@import 'fonts';
+@import 'common';
+@import 'header';
+@import 'footer';
+
+// Page specific
+@import 'landing';
+@import 'about-mission';
+@import 'about-people';
+@import 'about-role-models';
+@import 'about-partners';
+@import 'about-reports';
+
+// Outdate browsers
+@import '../../bower_components/outdated-browser/outdatedbrowser/outdatedbrowser.scss';
